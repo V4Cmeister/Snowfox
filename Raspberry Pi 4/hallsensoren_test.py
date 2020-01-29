@@ -33,6 +33,6 @@ try:
     while True:
         time.sleep(1)
 except KeyboardInterrupt:
-	print("Programm 'serial_text_to_pwm.py' wurde beendet")
+	print("Programm 'hallsensoren_test.py' wurde beendet")
 finally:	
 	GPIO.cleanup()
